@@ -1,0 +1,21 @@
+{
+  "presets": ["env"],
+  "plugins": [
+    [
+      "transform-react-jsx",
+      {
+        "pragma": "React.createElement"
+      }
+    ],
+    [
+      "module-resolver",
+      {
+        "root": ["."],
+        "alias": {
+          "react": "./react",
+          "react-dom": "./react-dom"
+        }
+      }
+    ]
+  ]
+}

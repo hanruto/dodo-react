@@ -1,0 +1,16 @@
+{
+  "name": "do-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.11.0"
+  }
+}
